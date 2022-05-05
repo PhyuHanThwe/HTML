@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <style>
+        *{
+            font-family: serif;
+            box-sizing: border-box;
+        }
+        body{
+            padding: 15px;
+            background-color: rgb(235, 231, 231)
+        }
+
+        .card{
+           width: 260px;
+           vertical-align: top;
+           /* height: 40px; */
+           /* border: 1px solid black; */
+           margin: 10px;
+           /* padding: 15px; */
+           border-radius: 10px;
+           display: inline-block;
+           overflow: hidden;
+           background-color: #fff;
+           box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .card-body{
+            
+        }
+        .card-title{
+           font-size: 18px; 
+           font-weight: bold;
+           /* padding-top: 0; */
+           padding: 15px;
+           /* padding-bottom: 0; */
+           margin: 0;
+        }
+        .card-para{
+            margin: 0;
+            padding: 0 15px 10px 15px;
+            /* padding-bottom: 0; */
+        }
+        .card-img{
+            width: 100%;
+        }
+        .card-icon{
+            padding-top: 10px;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .text-right{
+            text-align: right;
+        }
+        .add-to-cart{
+            background-color: black;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: none;
+            margin-left: auto;
+            margin-top: -20px;
+        }
+        .see-more{
+            background-color: black;
+            color: #fff;
+            width: 140px;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+            margin-bottom: -20px
+            
+        }
+        .background{
+            background-image: url(./images/texture-1.jpeg);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title">Min Ga Lar Pr</p>
+            <p class="card-para">Lorem ipsum dolor, sit ametsed explicabo praesentium perspiciatis distinctio rem placeat porro?</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body text-center">
+            <p class="card-title">Min Ga Lar Pr</p>
+            <p class="card-para">Lorem ipsum dolor, sit ametsed explicabo praesentium perspiciatis distinctio rem placeat porro?</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body text-right">
+            <p class="card-title">Min Ga Lar Pr</p>
+            <p class="card-para">Lorem ipsum dolor, sit ametsed explicabo praesentium perspiciatis distinctio rem placeat porro?</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="card">
+        <div class="card-body background" >
+            <img src="./images/poe-landscape-3.jpg" class="card-img" alt="" >
+            <p class="card-title">Min Ga Lar Pr</p>
+            <p class="card-para">Lorem ipsum dolor, sit ametsed explicabo praesentium perspiciatis distinctio rem placeat porro?</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body text-center">
+            <i class="card-icon fas fa-home fa-5x" ></i>
+            <p class="card-title">Min Ga Lar Pr</p>
+            <p class="card-para">Lorem ipsum dolor, sit ametsed explicabo praesentium perspiciatis distinctio rem placeat porro?</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body" >
+            <img src="./images/macbook.jpg" class="card-img" alt="" >
+            <button class="add-to-cart">
+                <i class="fas fa-plus"></i>
+            </button>
+            <p class="card-title">Min Ga Lar Pr</p>
+            <p class="card-para">Lorem ipsum dolor, sit ametsed explicabo praesentium perspiciatis distinctio rem placeat porro?</p>
+        </div>
+    </div>
+
+    <div class="card" style="overflow: visible;">
+        <div class="card-body text-center ">
+            <!-- <img src="./images/texture-1.jpeg" class="card-img" alt="" > -->
+            <i class="card-icon fas fa-home fa-5x" ></i>
+            <p class="card-title">Min Ga Lar Pr</p>
+            <p class="card-para">Lorem ipsum dolor, sit ametsed explicabo praesentium perspiciatis  porro?</p>
+            <button class="see-more">See More</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        *{
+            font-family: sans-serif;
+            
+        }
+        table{
+            border-collapse: collapse;
+            padding: 10px 5px;
+            width: 100%;
+            transition: 0.5s;
+        }
+        th{
+            background-color: rgb(119, 119, 212);
+            color: #ffff;
+            text-align: left;
+        }
+        tr,td{
+            border-bottom: 1px solid black;
+        }
+        tbody tr:hover{
+            background-color: rgb(192, 186, 186);
+        }
+        tbody tr td:first-child{
+            background-color: rgb(164, 164, 211);
+            color: #ffff;
+        }
+    </style>
+</head>
+<body>
+    <h4>Table CSS</h4>
+    <table>
+       <thead>
+        <tr>
+            <th>#</th>
+            <th>Course</th>
+            <th class="">Normal fees</th>
+            <th class="">discount</th>
+            <th class="">Total</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td>1</td>
+            <td >BWD</td>
+            <td class="">free</td>
+            <td class="">0</td>
+            <td class="">0</td>
+        </tr>
+       </tbody>
+       <tbody>
+        <tr>
+            <td>2</td>
+            <td >SWD</td>
+            <td class="">100000</td>
+            <td class="">80%</td>
+            <td class="">20000</td>
+        </tr>
+       </tbody>
+       <tbody>
+        <tr>
+            <td>3</td>
+            <td >Web Dev</td>
+            <td class="">100000</td>
+            <td class="">50%</td>
+            <td class="">50000</td>
+        </tr>
+       </tbody>
+    </table>
+</body>
+</html>

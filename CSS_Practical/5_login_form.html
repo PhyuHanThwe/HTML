@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<style type="text/css">
+    *{
+        font-family: 'Hind Siliguri', sans-serif;
+        color: #3f3b3b;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-color: #e7b3b3;
+    }
+    form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-form{
+        /* text-transform: uppercase; */
+        width: 350px;
+        height: 320px;
+        padding: 30px 20px;
+        /* margin: 200px auto; */
+        border-radius: 20px;
+        border: 1px solid  #a36262;
+    }
+    .login-form legend{
+        text-transform: uppercase;
+        font-size: 2em;
+        text-align: center;
+    }
+    .user{
+        padding-bottom: 10px;
+    }
+    .user label{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .user input{
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid  #dfb7b7;
+        background-color:  #fafafa;
+    }
+    .pw{
+        padding-bottom: 10px;
+    }
+    .pw label{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .pw input{
+        width: 100%;
+        display: block;
+        border-radius: 10px;
+        border: 1px solid  #dfb7b7;
+        background-color:  #fafafa;
+    }
+    .btn{
+        padding-bottom: 10px;
+        background-color: #a36262;
+        /* color: rgb(248, 246, 246); */
+        margin-right: 10px;
+        border-radius: 10px;
+        border: 1px solid #dfb7b7;
+        width: 100px;
+    }
+    
+    .text-light{
+        color: rgb(248, 246, 246);
+    }
+</style>
+<body>
+    <form action="">
+        <fieldset class="login-form">
+            <legend class="text-light">
+                <i class="fas fa-lock-open fa-fw text-light" ></i>
+                Login Form
+            </legend>
+
+                <div class="user">
+                    <label for="" class="text-light">
+                        <i class="fas fa-user fa-fw text-light"></i> User Name: 
+                    </label>
+                    <input type="text" name="user" id="">
+                </div>
+
+                <div class="pw ">
+                    <label for="" class="text-light">
+                        <i class="fas fa-key fa-fw text-light"></i> Password:
+                    </label>
+                    <input type="password" name="pw" id="">
+                </div>
+
+                <button class="btn">
+                    <i class="fas fa-lock-open fa-fw text-light"></i> Login
+                </button>
+
+                <a href="#" class="register">Register Now</a>
+        </fieldset>
+    </form>
+</body>
+</html>
